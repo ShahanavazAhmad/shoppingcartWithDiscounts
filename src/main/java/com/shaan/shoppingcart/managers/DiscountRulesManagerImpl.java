@@ -1,4 +1,4 @@
-package com.shaan.shoppingcart.controller.managers;
+package com.shaan.shoppingcart.managers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.shaan.shoppingcart.controller.entities.DiscountRulesEntity;
-import com.shaan.shoppingcart.controller.models.DiscountRule;
-import com.shaan.shoppingcart.controller.models.repositories.DiscountRulesRepository;
+import com.shaan.shoppingcart.entities.DiscountRulesEntity;
+import com.shaan.shoppingcart.models.DiscountRule;
+import com.shaan.shoppingcart.repositories.DiscountRulesRepository;
 
 @Component
 public class DiscountRulesManagerImpl implements DiscountRulesManager {

@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shaan.shoppingcart.controller.factories.DiscountRulesResourceFactory;
-import com.shaan.shoppingcart.controller.models.DiscountRule;
-import com.shaan.shoppingcart.controller.resources.DiscountRulesResource;
 import com.shaan.shoppingcart.enums.CustomerTypeEnum;
 import com.shaan.shoppingcart.exception.InvalidCustomerTypeException;
+import com.shaan.shoppingcart.factories.DiscountRulesResourceFactory;
+import com.shaan.shoppingcart.models.DiscountRule;
+import com.shaan.shoppingcart.resources.DiscountRulesResource;
 
 @RestController
 @RequestMapping(value = "/rest/shoppingcart")

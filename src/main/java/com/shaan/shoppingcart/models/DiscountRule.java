@@ -1,4 +1,4 @@
-package com.shaan.shoppingcart.controller.models;
+package com.shaan.shoppingcart.models;
 
 public class DiscountRule {
 	

@@ -11,10 +11,10 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.shaan.shoppingcart.controller.DiscountCalculatorController;
-import com.shaan.shoppingcart.controller.factories.DiscountCalculatorFactory;
-import com.shaan.shoppingcart.controller.models.DiscountInfo;
 import com.shaan.shoppingcart.enums.CustomerTypeEnum;
 import com.shaan.shoppingcart.exception.InvalidCustomerTypeException;
+import com.shaan.shoppingcart.factories.DiscountCalculatorFactory;
+import com.shaan.shoppingcart.models.DiscountInfo;
 
 @RunWith(MockitoJUnitRunner.class)
 @SpringBootTest

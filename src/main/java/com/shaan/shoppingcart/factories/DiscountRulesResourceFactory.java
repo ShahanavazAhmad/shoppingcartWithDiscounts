@@ -1,4 +1,4 @@
-package com.shaan.shoppingcart.controller.factories;
+package com.shaan.shoppingcart.factories;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.shaan.shoppingcart.controller.managers.DiscountRulesManager;
-import com.shaan.shoppingcart.controller.models.DiscountRule;
-import com.shaan.shoppingcart.controller.resources.DiscountRulesResource;
+import com.shaan.shoppingcart.managers.DiscountRulesManager;
+import com.shaan.shoppingcart.models.DiscountRule;
+import com.shaan.shoppingcart.resources.DiscountRulesResource;
 
 @Service
 public class DiscountRulesResourceFactory {

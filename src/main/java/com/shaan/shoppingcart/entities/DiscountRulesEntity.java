@@ -1,4 +1,4 @@
-package com.shaan.shoppingcart.controller.entities;
+package com.shaan.shoppingcart.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

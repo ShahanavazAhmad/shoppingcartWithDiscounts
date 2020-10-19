@@ -1,8 +1,8 @@
-package com.shaan.shoppingcart.controller.resources;
+package com.shaan.shoppingcart.resources;
 
 import java.util.List;
 
-import com.shaan.shoppingcart.controller.models.DiscountRule;
+import com.shaan.shoppingcart.models.DiscountRule;
 
 public class DiscountRulesResource {
 	

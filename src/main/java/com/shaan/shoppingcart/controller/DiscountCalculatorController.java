@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.shaan.shoppingcart.controller.factories.DiscountCalculatorFactory;
-import com.shaan.shoppingcart.controller.models.DiscountInfo;
 import com.shaan.shoppingcart.enums.CustomerTypeEnum;
 import com.shaan.shoppingcart.exception.InvalidCustomerTypeException;
+import com.shaan.shoppingcart.factories.DiscountCalculatorFactory;
+import com.shaan.shoppingcart.models.DiscountInfo;
 
 @RestController
 @RequestMapping(value = "/rest/shoppingcart")
